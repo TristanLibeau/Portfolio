@@ -14,7 +14,7 @@ app.use(cors({ origin: "*" }));
 app.use("/public", express.static(process.cwd() + "/public")); //make public static
 
 const transporter = nodemailer.createTransport({
-  service: "hotmail",
+  service: "gmail",
   auth: {
     user: process.env.NODEMAILER_EMAIL,
     pass: process.env.NODEMAILER_PASSWORD,
@@ -41,7 +41,7 @@ app.post("/send", (req, res) => {
     console.log(data);
     const mail = {
       sender: `${data.name} <${data.email}>`,
-      to: process.env.EMAIL, // receiver email,
+      to: process.env.NODEMAILER_EMAIL, // receiver email,
       subject: data.subject,
       text: `${data.name} <${data.email}> \n${data.message}`,
     };
