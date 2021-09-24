@@ -156,7 +156,7 @@ img {
   /* Landing picture */
 
 .hero-image {
-    background-image: url("../img/sakura3-removebg-preview2_auto_x2.jpg");
+    background-image: url("./assets/img/sakura3-removebg-preview2_auto_x2.jpg");
     min-height: 100vh;
     height: 100vh;
     background-position: center;
