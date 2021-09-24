@@ -14,7 +14,7 @@ const formEvent = form.addEventListener("submit", (event) => {
 
 const sendMail = (mail) => {
     //1.
-    fetch("file:///C:/Users/Tristan/Desktop/Updated-Portfolio/index.html#introduction", {
+    fetch("https://tristanlibeau.github.io/Portfolio/", {
       method: "post", //2.
       body: mail, //3.
   
