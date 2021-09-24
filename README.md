@@ -6,7 +6,7 @@ The deployed Webpage is a simple web application to use as my web developer resu
 
 * URL of the Web page:
 
-https://tristanlibeau.github.io/Updated-Portfolio/
+
 
 * URL of my Repository:
 
