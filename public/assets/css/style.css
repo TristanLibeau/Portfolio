@@ -209,6 +209,10 @@ li {
     font-size:20px;
 }
 
+.card-custom {
+    box-shadow: 0 4px 8px 0 rgba(233, 232, 232, 0.911), 0 6px 20px 0 rgba(233, 232, 232, 0.911);
+}
+
 
   /* skills bar */
 
