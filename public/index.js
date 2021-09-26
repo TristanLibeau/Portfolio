@@ -1,3 +1,5 @@
+// require("./public/assets/css/style.css");
+
 //get the form by its id
 const form = document.getElementById("contact-form"); 
 
