@@ -282,3 +282,22 @@ li {
 .bar.expert::before{
     width: calc(100% - 10px);
 }
+
+
+@media only screen and (max-width: 1024px){
+
+    .ml2 {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+
+    .ml2 {
+        font-size: 25px;
+    }
+
+    .hero-text, p {
+        font-size: 15px;
+    }
+}
