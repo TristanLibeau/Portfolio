@@ -198,7 +198,7 @@ img {
 
 .ml2 {
     font-weight: 900;
-    font-size: 95px;
+    font-size: 6vw;
 }
   
 .ml2 .letter {
@@ -288,8 +288,12 @@ li {
     width: calc(100% - 10px);
 }
 
+ion-icon {
+    font-size: 50px;
+}
 
-@media only screen and (max-width: 1024px){
+
+/* @media only screen and (max-width: 1024px){
 
     .ml2 {
         font-size: 60px;
@@ -305,4 +309,4 @@ li {
     .hero-text, p {
         font-size: 15px;
     }
-}
+} */
